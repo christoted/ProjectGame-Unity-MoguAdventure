@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Binus/Materi/Sem 2/Mobile Creative Design/Project Game/Mogu Adventure.apk
+D:/Mogu Mogu/ProjectGame-Unity-MoguMoguAdventure-master/tes1.apk
 SceneListBegin?
 Assets/Scenes/mainMenu.unity
 Assets/Scenes/SampleScene.unity
