@@ -143,7 +143,7 @@ public class gerak : MonoBehaviour
 
             if (nyawa > 3)
             {
-                nyawa = 3;
+                nyawa = 3;  
             }
 
             if (nyawa == 3)
