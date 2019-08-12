@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/mainMenu.unity
     guid: f1736a81d0f2a8c40bfaaa1b68cf583b
   - enabled: 1
+    path: Assets/Scenes/Leveling.unity
+    guid: 5be740d37c7cce9488c183726b617787
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 7293d258b10d6ec45bc3a71b1853ef9a
   - enabled: 1
     path: Assets/Scenes/level2.unity
     guid: 417671fb75db72141ad27a79e9af54f9
+  - enabled: 1
+    path: Assets/Scenes/level3.unity
+    guid: 02eaba80cc6985646a31099ca7c1096c
   - enabled: 1
     path: Assets/Scenes/level4.unity
     guid: 5a48461172e51b14b8c2e72acf13622a
@@ -28,7 +34,7 @@ EditorBuildSettings:
     guid: 5c0b67bcbfb52b94f97045b42db7ab65
   - enabled: 0
     path: 
-    guid: c98726e98b679884cae9aa2de2b07f2a
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/about2.unity
     guid: 55ed18e60df09a44aa046724d64a3594
@@ -47,10 +53,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/about6.unity
     guid: 5d1c47c4fc2633c4295eb24707a1a6bc
-  - enabled: 1
-    path: Assets/Scenes/level3.unity
-    guid: 02eaba80cc6985646a31099ca7c1096c
-  - enabled: 1
-    path: Assets/Scenes/Leveling.unity
-    guid: 5be740d37c7cce9488c183726b617787
   m_configObjects: {}

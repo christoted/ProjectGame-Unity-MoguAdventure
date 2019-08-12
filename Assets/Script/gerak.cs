@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class gerak : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class gerak : MonoBehaviour
 
     Rigidbody2D lompat;
 
-    LevelControl leveControl = new LevelControl();
+
 
     public bool tanah;
     public LayerMask targetPlayer;
@@ -51,6 +52,9 @@ public class gerak : MonoBehaviour
 
     public GameObject Timeup;
 
+    //Buat Unlock Level
+    public int nextSceneLoad;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,6 +71,8 @@ public class gerak : MonoBehaviour
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);
         kalah.gameObject.SetActive(false);
+
+        nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
 
     }
 
@@ -242,7 +248,17 @@ public class gerak : MonoBehaviour
              //Time.timeScale = 0;
              btnNextLevel.gameObject.SetActive(true);
              Destroy(gameObject);
-            leveControl.levelPassed++;
+            // levelControl.levelPassed = 1;
+            //  levelControl.levelPassed++;
+
+
+            //Setting Level Move to Next Level
+          //  SceneManager.LoadScene(nextSceneLoad);
+            //Setting int for index
+            if ( nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
+            {
+                PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+            }
          } 
 
 

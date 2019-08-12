@@ -68,7 +68,7 @@
     <Compile Include="Assets\Script\goDownHeartminus.cs" />
     <Compile Include="Assets\Script\kembali.cs" />
     <Compile Include="Assets\Script\Koin.cs" />
-    <Compile Include="Assets\Script\LevelControl.cs" />
+    <Compile Include="Assets\Script\LevelSelection.cs" />
     <Compile Include="Assets\Script\menuju.cs" />
     <Compile Include="Assets\Script\menujuMenu.cs" />
     <Compile Include="Assets\Script\Musuh.cs" />

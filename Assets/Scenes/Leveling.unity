@@ -227,7 +227,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.092562504, y: 0.21851853}
   m_AnchorMax: {x: 0.26235417, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: -1.1190033}
+  m_AnchoredPosition: {x: -6, y: -1.1190186}
   m_SizeDelta: {x: -165, y: -271}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &235479535
@@ -276,7 +276,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 12
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -558,15 +558,15 @@ RectTransform:
   m_GameObject: {fileID: 758174677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8058286, y: 1.7189672, z: 1.5806595}
+  m_LocalScale: {x: 3.2780497, y: 2.0082695, z: 1.8466846}
   m_Children: []
   m_Father: {fileID: 1916597853}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.44470835, y: 0}
-  m_AnchorMax: {x: 0.5962084, y: 0.15200001}
-  m_AnchoredPosition: {x: 0, y: 4}
-  m_SizeDelta: {x: -190, y: -64}
+  m_AnchorMin: {x: 0.4311458, y: 0}
+  m_AnchorMax: {x: 0.60974985, y: 0.18259259}
+  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_SizeDelta: {x: -242, y: -97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &758174679
 MonoBehaviour:
@@ -769,7 +769,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -920,14 +920,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397349317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465143c23ebab8047a1abd61b22ef289, type: 3}
+  m_Script: {fileID: 11500000, guid: c4391e68d6fb1804b926fa3cd7c26e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level02But: {fileID: 287938299}
-  level03But: {fileID: 235479535}
-  level04But: {fileID: 1813415258}
-  level05But: {fileID: 1066574340}
-  levelPassed: 0
+  lvlButtons:
+  - {fileID: 2065526956}
+  - {fileID: 287938299}
+  - {fileID: 235479535}
+  - {fileID: 1813415258}
+  - {fileID: 1066574340}
 --- !u!4 &1397349319
 Transform:
   m_ObjectHideFlags: 0
@@ -1671,7 +1672,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1919,7 +1920,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
