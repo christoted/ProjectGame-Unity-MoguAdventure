@@ -11,6 +11,8 @@ public class gerak : MonoBehaviour
 
     Rigidbody2D lompat;
 
+    LevelControl leveControl = new LevelControl();
+
     public bool tanah;
     public LayerMask targetPlayer;
     public Transform deteksiTanah; // untuk mendeteksi posisi
@@ -240,7 +242,7 @@ public class gerak : MonoBehaviour
              //Time.timeScale = 0;
              btnNextLevel.gameObject.SetActive(true);
              Destroy(gameObject);
-             
+            leveControl.levelPassed++;
          } 
 
 

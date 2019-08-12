@@ -306,7 +306,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.7732289, g: 0.82473004, b: 0.9056604, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -515,7 +515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.67700005, y: 0.30425927}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 29.5, y: 52.399994}
+  m_AnchoredPosition: {x: 95, y: 105}
   m_SizeDelta: {x: 622.9, y: 88.900024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &464094339
@@ -935,7 +935,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 13
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1053,7 +1053,7 @@ Transform:
   m_GameObject: {fileID: 1256841143}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -630, y: 228, z: 0}
-  m_LocalScale: {x: 74.18976, y: 73.110985, z: 1.0403999}
+  m_LocalScale: {x: 83.46348, y: 77.68042, z: 1.0403999}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
