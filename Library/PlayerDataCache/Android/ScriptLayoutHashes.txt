@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/abhiw/Documents/GitHub/apk/woe.apk
+C:/Users/abhiw/Documents/GitHub/apk/ooo.apk
 SceneListBegin?
 Assets/Scenes/mainMenu.unity
 Assets/Scenes/Leveling.unity
